@@ -11,7 +11,12 @@ async function GetUser() {
     }
 
   return (
-    <div>{user.username}</div>
+    <div>
+        username:
+        {user.username}
+        password
+        {user.password}
+    </div>
   )
 }
 
