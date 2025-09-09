@@ -11,7 +11,7 @@ async function GetUser() {
     }
 
   return (
-    <div>
+    <div style={{ color: "white" }}>
         username:
         {user.username}
         password
